@@ -1,0 +1,93 @@
+@import "../../global.scss";
+.schooling{
+    background: #ffffffa1;
+    height: calc(100vh - 70px);
+    width: 100vw;
+   
+}
+
+:root {
+    --yellow: #40afaa;
+}
+
+.heading {
+    text-align: center;
+    margin: 0 6rem;
+    margin-bottom:80px ;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .2rem solid rgba(255, 14, 14, 0.267);
+    color: #000000;
+    @include mobile{
+        margin: 0 4rem;
+       
+      }
+}
+
+.heading span {
+    color: #dc143c;
+    
+    @include mobile{
+       
+        font-size: 45px;
+      }
+}
+.education .box-container .box {
+    width: 27rem;
+    margin: 2rem 1rem;
+    
+    padding-top: 20px;
+    padding-left: 4rem;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 8px 5px grey;
+    background-color: #ffffff;
+    @include mobile{
+       
+        margin: 1rem 1rem;
+        padding-left: 3rem;
+      }
+
+  
+}
+
+.education .box-container .box span {
+    font-size: 1.3rem;
+    background: rgb(74, 68, 68);
+    opacity: 0.9;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+    
+  
+}
+
+.education .box-container .box h3 {
+    font-size: 2rem;
+    color: #000000;
+    padding-top: 1.5rem;
+    font-weight: 500;
+   
+}
+
+.education .box-container .box p {
+    font-size: 1.4rem;
+    color: #000000;
+    padding: 1rem 0;
+
+   
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+   
+}
+
+
+
+
+
