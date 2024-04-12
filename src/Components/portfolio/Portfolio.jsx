@@ -1,34 +1,17 @@
 import { useEffect, useState } from "react";
-
 import "./portfolio.scss";
-import {
-  featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-} from "../../data";
+import { featuredPortfolio, webPortfolio, designPortfolio } from "../../data";
 import PortfolioList from "../PortfolioList/PortFolioList";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
+
   const list = [
-    {
-      id: "featured",
-      title: "Featured",
-    },
-    {
-      id: "web",
-      title: "Web App",
-    },
-    {
-      id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
+    { id: "featured", title: "Featured" },
+    { id: "web", title: "Web App" },
+
+    { id: "design", title: "Design" },
   ];
 
   useEffect(() => {
@@ -39,13 +22,9 @@ export default function Portfolio() {
       case "web":
         setData(webPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
-        break;
       case "design":
         setData(designPortfolio);
         break;
-
       default:
         setData(featuredPortfolio);
     }
@@ -55,7 +34,7 @@ export default function Portfolio() {
     <div className="fullContainer">
       <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
-        <ul key={list.id}>
+        <ul>
           {list.map((item) => (
             <PortfolioList
               key={item.id}
@@ -67,16 +46,15 @@ export default function Portfolio() {
           ))}
         </ul>
       </div>
-
       <div className="container">
         {data.map((item) => (
-          <div className="item">
+          <div key={item.id} className="item">
             <img src={item.img} alt="" />
             <h2>{item.title}</h2>
-            <p>{item.desc} </p>
+            <p>{item.desc}</p>
             <ul>
-              {item.skill.map((e) => (
-                <li>{e}</li>
+              {item.skill.map((e, index) => (
+                <li key={index}>{e}</li>
               ))}
             </ul>
           </div>

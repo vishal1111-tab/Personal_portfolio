@@ -3,116 +3,90 @@ export const featuredPortfolio = [
       id: 1,
       title: "E-Commerce Website",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo saepe laborum aut quo tenetur neque vitae quibusdam officiis. Iusto?",
+        "assets/myntra.png",
+        desc: [
+          "Developed a Myntra E-Commerce web application employing React, Firebase, Node.js and Sass.",
+          "Implemented essential features like product addition/removal from the cart, product listings, search functionality, shopping cart management.",
+          
+        ],
       skill: ["REACT" , "HTML,CSS,JS", "FIREBASE"],
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Cryptocurrency Tracker",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
-        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo saepe laborum aut quo tenetur neque vitae quibusdam officiis. Iusto?",
-      skill: ["React" , "javascript", "firebase"],
+      "assets/Crypto.png",
+        desc: [
+          "Developed a real-time cryptocurrency tracker with React, Tailwind CSS, and APIs.",
+          "Users can monitor and track various cryptocurrencies in real-time.",
+          "Used React Hooks and Axios for seamless integration with CoinGecko API.",
+          
+        ],
+      skill: ["React" , "javascript", "Api"],
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "Social Media App",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo saepe laborum aut quo tenetur neque vitae quibusdam officiis. Iusto?",
-      skill: ["React" , "javascript", "firebase" , "Css"],
+      "assets/social.png",
+   
+        desc: [
+          "Developed a social media app using React, JavaScript, and Bootstrap.",
+          "Users can add, delete, and interact with posts.",
+          "Implemented features for seamless post management and user engagement.",
+          "Utilized modern web technologies to create an intuitive and responsive user experience."
+        ],
+      skill: ["React" , "javascript",  , "BootStrap"],
     },
   ];
-  
   export const webPortfolio = [
     {
       id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo saepe laborum aut quo tenetur neque vitae quibusdam officiis. Iusto?",
-      skill: ["REact" , "javascript", "firebase" , "Css"],
+      title: "Weather Forecast Application",
+      img: "assets/Weather.png",
+      desc: "This weather app fetch data OpenWeatherMap API. Crafted using JavaScript, HTML, and CSS, it delivers a seamless experience. Users can easily search for cities worldwide, accessing detailed weather forecasts effortlessly. With its intuitive design, it ensures a user-friendly interaction, making weather checks a breeze.",
+      skill: ["javascript", "Api" , "Css"],
     },
     {
       id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo saepe laborum aut quo tenetur neque vitae quibusdam officiis. Iusto?",
-      skill: ["REact" , "javascript", "firebase" , "Css"],
+      title: "Jokify",
+      img: "assets/Jokes.png",
+      desc: "Jokify is a Chrome extension that provides random jokes on every click. It fetches a new joke with each interaction, offering endless humor. Users can enjoy a quick laugh with just a click of a button. The extension delivers a fun and spontaneous experience for users seeking entertainment.",
+      skill: ["HTML5" , "CSS" ,"javascript", "JSON"],
     },
     {
       id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo saepe laborum aut quo tenetur neque vitae quibusdam officiis. Iusto?",
-      skill: ["REact" , "javascript", "firebase" , "Css"],
+      title: "ResumeX",
+      img: "assets/resume.png",
+      desc: "Simple-Resume is a user-friendly and efficient resume-building platform crafted using JavaScript, designed to empower individuals to effortlessly create professional resumes. With a seamless admin-like panel, users can add details about their skills, projects, experiences, education, and personal profiles. The platform streamlines the resume creation",
+      skill: ["HTML" ,"CSS", "javascript", "firebase"],
     },
   ];
-  
-  export const mobilePortfolio = [
-    {
-      id: 1,
-      title: "Mobile Social Media App",
-      img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Mobile Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Mobile E-commerce Design",
-      img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    }
-  
-   
-  ];
-  
   export const designPortfolio = [
     {
       id: 1,
-      title: "Design Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "UsabilityHub Clone",
+      img: "assets/clone.png",
+      desc: "A clone of the UsabilityHub website recreated with HTML and CSS. Mimics the layout and design elements faithfully. Utilizes responsive design for seamless viewing across devices. Offers an immersive user experience akin to the original platform.",
+      skill: ["HTML5" , "CSS", "Bootstrap"],
     },
     {
       id: 2,
-      title: "Design Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "Food Items",
+      img: "assets/restau.png",
+      desc: "This web application is built using React, allowing users to add and delete food items effortlessly. It features a user-friendly interface for seamless interaction. Users can easily manage their food list with intuitive controls. Developed with React, it ensures efficient food item management with smooth performance.",
+      skill: ["HTML5" , "CSS", "React"],
     },
     {
       id: 3,
-      title: "Design E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "Reactofolio",
+      img: "assets/portfolio.png",
+      desc: "Reactofolio is a stylish personal portfolio template crafted with React, ensuring responsiveness across devices. Ideal for presenting your projects and expertise professionally. It offers a polished showcase for highlighting your work and skills effectively.",
+      skill: ["React" , "javascript",  "SCSS"],
     },
-  
   ];
   
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "Content Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Content Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Content E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-   
-  ];
   
+  
+ 
+ 

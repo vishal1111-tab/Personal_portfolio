@@ -32,15 +32,15 @@ export default function Contact() {
           <a href="https://www.linkedin.com/feed/" className="logo">
             <CiLinkedin className="logoStyle" />
           </a>
-          <a href="https://github.com/webdevelopervishal" className="logo">
+          <a href="https://github.com/vishal1111-tab" className="logo">
             <FaGithub className="logoStyle" />
           </a>
           <a href="https://www.instagram.com/" className="logo">
             <FaInstagram className="logoStyle" />
           </a>
-          <a href="https://twitter.com/?lang=en" className="logo">
+          {/* <a href="https://twitter.com/?lang=en" className="logo">
             <FaXTwitter className="logoStyle" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
               <div className="icon">
                 <MdEmail />
               </div>
-              <span>vishalg@gmail.com</span>
+              <span>vishalg1938@gmail.com</span>
             </div>
           </div>
 
