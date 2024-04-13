@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./portfolio.scss";
 import { featuredPortfolio, webPortfolio, designPortfolio } from "../../data";
-import PortfolioList from "../PortfolioList/PortFolioList";
+import PortFolioList from "../PortfolioList/PortFolioList";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -36,7 +36,7 @@ export default function Portfolio() {
         <h1>Portfolio</h1>
         <ul>
           {list.map((item) => (
-            <PortfolioList
+            <PortFolioList
               key={item.id}
               title={item.title}
               active={selected === item.id}
